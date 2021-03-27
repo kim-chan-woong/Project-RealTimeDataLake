@@ -44,4 +44,9 @@ postgre - 11 (data mart)
 4. 요구 사항 가정 및 hiveQL SELECT  결과를 DataMart(Postgre)에 적재 or 곧바로 csv파일로 추출
 5. 위 과정들을 Apache Nifi(workflow tool)로 작업 자동화 및 실시간 추적, 모니터링
 
+# servers
+
 # 1hour cycle crontab
+1시간 주기 데이터 수집 (get_data.py, getdataserver)
+![Screenshot_20](https://user-images.githubusercontent.com/66659846/112711786-6020ab80-8f0e-11eb-9542-831890e6e512.png)
+![Screenshot_19](https://user-images.githubusercontent.com/66659846/112711787-61ea6f00-8f0e-11eb-8e06-3a0170ae6496.png)
