@@ -43,3 +43,5 @@ postgre - 11 (data mart)
 3. hive 활용 HDFS 웨어 하우징(hiveQL문으로 원본 파일(.csv) 테이블화 및 조건 검색)   
 4. 요구 사항 가정 및 hiveQL SELECT  결과를 DataMart(Postgre)에 적재 or 곧바로 csv파일로 추출
 5. 위 과정들을 Apache Nifi(workflow tool)로 작업 자동화 및 실시간 추적, 모니터링
+
+# 1hour cycle crontab
