@@ -49,6 +49,9 @@ postgre - 11 (data mart)
 
 # 1hour cycle crontab
 1시간 주기 데이터 수집 (get_data.py, getdataserver)
+1. 1시간 주기로 get_data.py가 실행 되어 카테고리별 베스트 100 상품들의 정보를 수집, csv파일 형태로 원본 데이터가 생성   
+2. /root/data에 저장되면 곧바로 active namenode인 nn01에 ssh통신을 통해 배포 후 원본 데이터 삭제   
+3. 원본 csv파일이 nn01에 전달되면 nifi를 통해 후 작업 
 ![Screenshot_20](https://user-images.githubusercontent.com/66659846/112711786-6020ab80-8f0e-11eb-9542-831890e6e512.png)
 ![Screenshot_19](https://user-images.githubusercontent.com/66659846/112711787-61ea6f00-8f0e-11eb-8e06-3a0170ae6496.png)
 
