@@ -26,13 +26,13 @@ postgre - 11 (data mart)
 2. 카테고리 12종류 x 각 베스트 100 = 1시간 주기 1,200 x 19시간  = 22,800건
 
 # process
-![Screenshot_24](https://user-images.githubusercontent.com/66659846/112711394-5ba6c380-8f0b-11eb-9a3a-d92790bd22fa.png)
 
 1. python 크롤링 코드 작성(anaconda3, jupyter notebook 테스트) 후 linux crontab 활용 1시간 주기 python script(.py) 실행   
 2. 수집한 데이터를 HDFS에 분산 저장 (원본 데이터 유지, 수집 시간에 따른 동적 폴더 구조 / nifi 활용)   
 3. hive 활용 HDFS 웨어 하우징(hiveQL문으로 원본 파일(.csv) 테이블화 및 조건 검색)   
 4. 요구 사항 가정 및 hiveQL SELECT  결과를 DataMart(Postgre)에 적재 or 곧바로 csv파일로 추출
-5. 위 과정들을 Apache Nifi(workflow tool)로 작업 자동화 및 실시간 추적, 모니터링
+5. 위 과정들을 Apache Nifi(workflow tool)로 작업 자동화 및 실시간 추적, 모니터링   
+![Screenshot_24](https://user-images.githubusercontent.com/66659846/112711394-5ba6c380-8f0b-11eb-9a3a-d92790bd22fa.png)
 
 # servers
 서버1(nn01): active namenode, zookeeper, journalnode, nifi and hive master 역할   
