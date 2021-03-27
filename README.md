@@ -91,7 +91,9 @@ hdfs folder:/user/source_data/YYYY/MM/DD/HH/gmarket.csv
 ![Screenshot_32](https://user-images.githubusercontent.com/66659846/112712183-2c935080-8f11-11eb-8c92-c580617e2bf1.png)
 
 # save datamart(postgre)
-1. 2021년 03월 24일 19시, 2021년 03월 25일 13시의 카테고리별 베스트 100의 데이터 필요 요구 사항 가정
+1. 2021년 03월 24일 19시, 2021년 03월 25일 13시의 카테고리별 베스트 100의 데이터 필요 요구 사항 가정   
+ 
+요구 사항에 맞는 SELECT 쿼리문 설정(nifi flow no.05 SelectHiveQL)   
 
 category_kind table: 새로 들어올 데이터의 카테고리 이상값 보완 목적
 ![Screenshot_33](https://user-images.githubusercontent.com/66659846/112712240-78de9080-8f11-11eb-968a-ec29aa860919.png)   
