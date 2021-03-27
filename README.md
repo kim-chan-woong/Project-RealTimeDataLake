@@ -68,3 +68,10 @@ hdfs folder:/user/source_data/YYYY/MM/DD/HH/gmarket.csv
 ![Screenshot_30](https://user-images.githubusercontent.com/66659846/112712160-02da2980-8f11-11eb-9c4e-33a28cad977d.png)
 ![Screenshot_31](https://user-images.githubusercontent.com/66659846/112712161-040b5680-8f11-11eb-88f1-f41b1b3d0ecc.png)
 ![Screenshot_32](https://user-images.githubusercontent.com/66659846/112712183-2c935080-8f11-11eb-8c92-c580617e2bf1.png)
+
+# save datamart(postgre)
+1. 2021년 03월 24일 19시, 2021년 03월 25일 13시의 카테고리별 베스트 100의 데이터 필요 요구 사항 가정
+![Screenshot_33](https://user-images.githubusercontent.com/66659846/112712240-78de9080-8f11-11eb-968a-ec29aa860919.png)
+![Screenshot_34](https://user-images.githubusercontent.com/66659846/112712243-7a0fbd80-8f11-11eb-8f56-c7e0300507f7.png)
+![Screenshot_35](https://user-images.githubusercontent.com/66659846/112712244-7a0fbd80-8f11-11eb-8990-206b8aa7305f.png)
+![Screenshot_36](https://user-images.githubusercontent.com/66659846/112712245-7aa85400-8f11-11eb-8665-2477583a4faf.png)
