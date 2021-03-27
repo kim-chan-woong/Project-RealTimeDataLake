@@ -48,3 +48,8 @@ postgre - 11 (data mart)
 1시간 주기 데이터 수집 (get_data.py, getdataserver)
 ![Screenshot_20](https://user-images.githubusercontent.com/66659846/112711786-6020ab80-8f0e-11eb-9542-831890e6e512.png)
 ![Screenshot_19](https://user-images.githubusercontent.com/66659846/112711787-61ea6f00-8f0e-11eb-8e06-3a0170ae6496.png)
+
+# mobaXterm remote work
+![Screenshot_25](https://user-images.githubusercontent.com/66659846/112711853-de7d4d80-8f0e-11eb-8673-d2fa4d8219bd.png)
+
+
