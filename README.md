@@ -16,3 +16,14 @@ mysql - 5.7 (hive metastore)
 nifi - 1.9.2 (workflow tool)   
 python - 3.8.5 (crawling code)   
 postgre - 11 (data mart)   
+
+# 서버별 역할
+서버1(nn01): active namenode, zookeeper, journalnode, nifi and hive master 역할   
+서버2(rm01): standby namenode, zookeeper, journalnode, ResourceManager 역할   
+서버3(jn01): zookeeper, journalnode 역할   
+서버4(dn01): NodeManager, Datanode 역할   
+서버5(dn02): NodeManager, Datanode 역할   
+서버6(dn03): NodeManager, Datanode 역할   
+서버7(dbserver): Postgre, DataMart 역할   
+서버8(getdataserver): Source Data 수집 역할   
+
