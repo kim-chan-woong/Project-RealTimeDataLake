@@ -57,6 +57,18 @@ postgre - 11 (data mart)
 ![Screenshot_19](https://user-images.githubusercontent.com/66659846/112711787-61ea6f00-8f0e-11eb-8e06-3a0170ae6496.png)
 ![Screenshot_28](https://user-images.githubusercontent.com/66659846/112712052-2fda0c80-8f10-11eb-9877-09f384625b12.png)
 
+# nifi processots flow
+1. GetFile: nn01의 지정할 경로에 파일 발생 시 nifi 상으로 get 후 경로의 로컬 데이터는 삭제   
+2. PutHDFS: get한 데이터를 hdfs에 저장, now() format 활용 동적인 폴더 생성   
+3. ReplaceText: hdfs를 hive 테이블화 하기 위한 hiveQL문 작성, csv 설정 및 수집 시간에 따른 테이블명 동적 생성   
+4. PutHiveQL: 위 작성한 hiveQL문 실행   
+5. SelectHiveQL: hive테이블을 요구 사항에 맞게 SELECT, 이 때 csv파일로 바로 추출도 가능   
+6. ConvertRecord: HiveQL SELECT 결과(.csv)를 json 형식으로 변경   
+7. ConverJSONToSQL: json 형식의 데이터를 데이터 마트(postgre)의 테이블에 적재하기 위한 설정   
+8. PutSQL: 위 설정한 SQL문 실행   
+9. ![Screenshot_37](https://user-images.githubusercontent.com/66659846/112712416-dcb58900-8f12-11eb-9f10-161534b1a606.png)   
+
+
 
 # Save HDFS
 hdfs folder:/user/source_data/YYYY/MM/DD/HH/gmarket.csv
