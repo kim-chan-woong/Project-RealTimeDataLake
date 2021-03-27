@@ -66,7 +66,9 @@ postgre - 11 (data mart)
 6. ConvertRecord: HiveQL SELECT 결과(.csv)를 json 형식으로 변경   
 7. ConverJSONToSQL: json 형식의 데이터를 데이터 마트(postgre)의 테이블에 적재하기 위한 설정   
 8. PutSQL: 위 설정한 SQL문 실행   
-9. ![Screenshot_37](https://user-images.githubusercontent.com/66659846/112712416-dcb58900-8f12-11eb-9f10-161534b1a606.png)   
+9. LogAttribute: 과정 별 failure 혹은 전체 과정 success 모니터링
+10. Queued: 각 과정별 진행 상황 확인 및 파일 추출(본 flow에선 .csv, .json 형태로 곧바로 추출 가능)
+![Screenshot_37](https://user-images.githubusercontent.com/66659846/112712416-dcb58900-8f12-11eb-9f10-161534b1a606.png)   
 
 
 
