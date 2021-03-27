@@ -70,7 +70,12 @@ postgre - 11 (data mart)
 10. Queued: 각 과정별 진행 상황 확인 및 파일 추출(본 flow에선 .csv, .json 형태로 곧바로 추출 가능)
 ![Screenshot_37](https://user-images.githubusercontent.com/66659846/112712416-dcb58900-8f12-11eb-9f10-161534b1a606.png)   
 
-
+# nifi controllers   
+1. CSVReader: csv 파일 핸들링 설정   
+2. DBCPConnectionPool: datamart(postgre) jdbc driver 및 DB 설정   
+3. HiveConnectionPool: hive jdbc driver 및 DB 설정   
+4. JsonRecordSetWriter: json 파일 핸들링 설정   
+![Screenshot_38](https://user-images.githubusercontent.com/66659846/112712724-703b8980-8f14-11eb-8aa6-c57fe3174974.png)
 
 # Save HDFS   
 수집 시간에 따른 동적인 폴더 구조 구축   
