@@ -55,6 +55,6 @@ postgre - 11 (data mart)
 3. 원본 csv파일이 nn01에 전달되면 nifi를 통해 후 작업 
 ![Screenshot_20](https://user-images.githubusercontent.com/66659846/112711786-6020ab80-8f0e-11eb-9542-831890e6e512.png)
 ![Screenshot_19](https://user-images.githubusercontent.com/66659846/112711787-61ea6f00-8f0e-11eb-8e06-3a0170ae6496.png)
-![Screenshot_26](https://user-images.githubusercontent.com/66659846/112711944-927ed880-8f0f-11eb-83ec-a5c9e7fbf219.png)
+![Screenshot_28](https://user-images.githubusercontent.com/66659846/112712052-2fda0c80-8f10-11eb-9877-09f384625b12.png)
 
 
