@@ -3,10 +3,11 @@
 # 실시간 데이터 수집 및 적재 (from gmarket)
 
 # Requirements
-1. 1시간 주기로 gmarket의 카테고리(12)별 베스트 100을 수집하고 유지할 수 있어야 한다.   
-2. 수집 시간에 따른 동적인 구조의 폴더로 저장되어 데이터의 가시성을 높인다.
-3. 분석가 혹은 개발 인력들의 요구사항에 맞는 데이터를 언제, 어디서든 데이터 마트에 적재할 수 있는 구조여야 한다. (웨어하우징)
-4. 과정 전체의 자동화와 모니터링 및 추적이 가능해야 한다.
+1. 1시간 주기로 gmarket의 카테고리(12)별 베스트 100을 수집하고 유지할 수 있어야 한다.
+2. 상품들의 정보(title, price, category, img)와 xpath(title_xpath, price_xpath, img_xpath)를 수집해야한다.   
+3. 수집 시간에 따른 동적인 구조의 폴더로 저장되어 데이터의 가시성을 높인다.
+4. 분석가 혹은 개발 인력들의 요구사항에 맞는 데이터를 언제, 어디서든 데이터 마트에 적재할 수 있는 구조여야 한다. (웨어하우징)
+5. 과정 전체의 자동화와 모니터링 및 추적이 가능해야 한다.
 
 # 주요 환경 및 스펙
 virtual box - 6.1 (가상 서버 8대)   
@@ -54,5 +55,6 @@ postgre - 11 (data mart)
 3. 원본 csv파일이 nn01에 전달되면 nifi를 통해 후 작업 
 ![Screenshot_20](https://user-images.githubusercontent.com/66659846/112711786-6020ab80-8f0e-11eb-9542-831890e6e512.png)
 ![Screenshot_19](https://user-images.githubusercontent.com/66659846/112711787-61ea6f00-8f0e-11eb-8e06-3a0170ae6496.png)
+![Screenshot_26](https://user-images.githubusercontent.com/66659846/112711944-927ed880-8f0f-11eb-83ec-a5c9e7fbf219.png)
 
 
