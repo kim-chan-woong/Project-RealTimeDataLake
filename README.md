@@ -35,7 +35,6 @@ postgre - 11 (data mart)
 5. 위 과정들을 Apache Nifi(workflow tool)로 작업 자동화 및 실시간 추적, 모니터링
 
 # servers
-![Screenshot_40](https://user-images.githubusercontent.com/66659846/112713011-281d6680-8f16-11eb-8be4-77e45eda58ab.png)   
 서버1(nn01): active namenode, zookeeper, journalnode, nifi and hive master 역할   
 서버2(rm01): standby namenode, zookeeper, journalnode, ResourceManager 역할   
 서버3(jn01): zookeeper, journalnode 역할   
@@ -43,7 +42,8 @@ postgre - 11 (data mart)
 서버5(dn02): NodeManager, Datanode 역할   
 서버6(dn03): NodeManager, Datanode 역할   
 서버7(dbserver): Postgre, DataMart 역할   
-서버8(getdataserver): Source Data 수집 역할 
+서버8(getdataserver): Source Data 수집 역할   
+![Screenshot_40](https://user-images.githubusercontent.com/66659846/112713011-281d6680-8f16-11eb-8be4-77e45eda58ab.png)   
 
 # mobaXterm remote work
 ![Screenshot_25](https://user-images.githubusercontent.com/66659846/112711853-de7d4d80-8f0e-11eb-8673-d2fa4d8219bd.png)
