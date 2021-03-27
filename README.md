@@ -62,3 +62,6 @@ postgre - 11 (data mart)
 hdfs folder:/user/source_data/YYYY/MM/DD/HH/gmarket.csv
 ![Screenshot_27](https://user-images.githubusercontent.com/66659846/112712090-6ca60380-8f10-11eb-8e23-6844c59ba256.png)
 ![Screenshot_29](https://user-images.githubusercontent.com/66659846/112712094-77f92f00-8f10-11eb-8ab3-e0f771d2e4dd.png)
+
+# hive hdfs warehousing
+![Screenshot_22](https://user-images.githubusercontent.com/66659846/112712130-c4446f00-8f10-11eb-9dde-d99f5ba2a746.png)
