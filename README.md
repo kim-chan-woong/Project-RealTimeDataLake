@@ -20,6 +20,7 @@ mysql - 5.7 (hive metastore)
 nifi - 1.9.2 (workflow tool)   
 python - 3.8.5 (crawling code)   
 postgre - 11 (data mart)    
+anaconda3, juptyer notebook - python crawling code test   
 
 # result
 1. 2021년 03월 24일 19시 ~ 2021년 03월 25일 13시 까지의 19시간 수집 결과
