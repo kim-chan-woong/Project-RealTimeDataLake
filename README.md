@@ -65,3 +65,5 @@ hdfs folder:/user/source_data/YYYY/MM/DD/HH/gmarket.csv
 
 # hive hdfs warehousing
 ![Screenshot_22](https://user-images.githubusercontent.com/66659846/112712130-c4446f00-8f10-11eb-9dde-d99f5ba2a746.png)
+![Screenshot_30](https://user-images.githubusercontent.com/66659846/112712160-02da2980-8f11-11eb-9c4e-33a28cad977d.png)
+![Screenshot_31](https://user-images.githubusercontent.com/66659846/112712161-040b5680-8f11-11eb-88f1-f41b1b3d0ecc.png)
