@@ -71,7 +71,24 @@ hdfs folder:/user/source_data/YYYY/MM/DD/HH/gmarket.csv
 
 # save datamart(postgre)
 1. 2021년 03월 24일 19시, 2021년 03월 25일 13시의 카테고리별 베스트 100의 데이터 필요 요구 사항 가정
+
+category_kind table: 새로 들어올 데이터의 카테고리 이상값 보완 목적
 ![Screenshot_33](https://user-images.githubusercontent.com/66659846/112712240-78de9080-8f11-11eb-968a-ec29aa860919.png)
+
+데이터 적재
 ![Screenshot_34](https://user-images.githubusercontent.com/66659846/112712243-7a0fbd80-8f11-11eb-8f56-c7e0300507f7.png)
+
+idx: primary key, auto increment   
+rank: not null   
+title: not null   
+price: not null   
+url: not null   
+img: not null   
+category: foreign key, category_kind(ca_name)   
+title_xpath: not_null   
+price_xpath: not_null   
+img_xpath: not_null   
+![image](https://user-images.githubusercontent.com/66659846/112712295-ebe80700-8f11-11eb-8a99-f69380af5596.png)
+
 ![Screenshot_35](https://user-images.githubusercontent.com/66659846/112712244-7a0fbd80-8f11-11eb-8990-206b8aa7305f.png)
 ![Screenshot_36](https://user-images.githubusercontent.com/66659846/112712245-7aa85400-8f11-11eb-8665-2477583a4faf.png)
