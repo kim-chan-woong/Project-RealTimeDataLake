@@ -58,3 +58,7 @@ postgre - 11 (data mart)
 ![Screenshot_28](https://user-images.githubusercontent.com/66659846/112712052-2fda0c80-8f10-11eb-9877-09f384625b12.png)
 
 
+# Save HDFS
+hdfs folder:/user/source_data/YYYY/MM/DD/HH/gmarket.csv
+![Screenshot_27](https://user-images.githubusercontent.com/66659846/112712090-6ca60380-8f10-11eb-8e23-6844c59ba256.png)
+![Screenshot_29](https://user-images.githubusercontent.com/66659846/112712094-77f92f00-8f10-11eb-8ab3-e0f771d2e4dd.png)
