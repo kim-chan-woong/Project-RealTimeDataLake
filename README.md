@@ -35,7 +35,7 @@ postgre - 11 (data mart)
 5. 위 과정들을 Apache Nifi(workflow tool)로 작업 자동화 및 실시간 추적, 모니터링
 
 # servers
-![Screenshot_14](https://user-images.githubusercontent.com/66659846/112711815-9100e080-8f0e-11eb-93ee-40c3c809374f.png)
+![Screenshot_14](https://user-images.githubusercontent.com/66659846/112711815-9100e080-8f0e-11eb-93ee-40c3c809374f.png)   
 서버1(nn01): active namenode, zookeeper, journalnode, nifi and hive master 역할   
 서버2(rm01): standby namenode, zookeeper, journalnode, ResourceManager 역할   
 서버3(jn01): zookeeper, journalnode 역할   
